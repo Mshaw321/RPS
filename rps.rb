@@ -72,7 +72,7 @@ while $play == "y"
 	puts
 
 # Output Results
-	puts "()================================()"
+	puts "()=================================()"
 	puts
 	puts "You have selected:"
 	puts
@@ -82,7 +82,7 @@ while $play == "y"
 	puts
 	choice
 	puts
-	puts "()================================()"
+	puts "()=================================()"
 
 # perform comparison 
 
@@ -123,7 +123,7 @@ while $play == "y"
 		p_again
 	elsif p_choice == "scissors" && $c_choice == "paper"
 		puts
-		puts "Scissors cut Paper! You Win! Good Job!"
+		puts "Scissors cut Paper! You Win!"
 		puts
 		p_again
 	elsif p_choice == "scissors" && $c_choice == "scissors"
@@ -141,8 +141,28 @@ while $play == "y"
 
 end
 
-
-  
+#
+# case p_choice
+#	when "rock"
+#		if $c_choice == "rock"
+#			puts
+#			puts "You have both selected rock. It's a tie!"
+#			puts
+#			p_again
+#		elsif $c_choice == "paper"
+#			puts
+#			puts "Paper covers Rock. You Lose!"
+#			puts
+#			p_again
+#		elsif $c_choice == "scissors"
+#			puts
+#			puts "Rock crushes Scissors! You Win!"
+#			puts
+#			p_again
+#		end
+#	when "paper"
+#
+#
 
 
 # Rock vs Scissors
