@@ -72,6 +72,7 @@ while $play == "y"
 	puts
 
 # Output Results
+
 	puts "()=================================()"
 	puts
 	puts "You have selected:"
