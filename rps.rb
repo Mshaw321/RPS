@@ -35,6 +35,7 @@ end
 # Define Play Again Method
 
 def p_again
+    
 
 	puts
 	puts "Shoot again? (y/n):"
